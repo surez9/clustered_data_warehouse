@@ -14,6 +14,7 @@ import java.util.List;
 @RequestMapping( "/api/fx")
 public class DealController {
 
+    @Autowired
     private DealService dealService;
 
     @GetMapping("/getAll")
